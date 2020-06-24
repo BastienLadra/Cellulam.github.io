@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <title>Cellulam</title>
+  <meta name="description" content="Cellulam Project" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <link href="css/plugins.css" rel="stylesheet">
+  <link href="css/application.css" rel="stylesheet">
+  <link href="css/flag.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet" />
+  <script src="js/libs/modernizr-2.6.2.min.js"></script>
+</head>
+
+<body>
+  <section class="page-wrapper">
+
+    <!-- HERO -->
+    <section class="header row" id="Accueil">
+      <div class="site-inner">
+        <header class="banner">
+          <div class="site-inner">
+            <h1 class="logo"><img src="images/logo.svg" class="inject-me" /></h1>
+
+            <div class="menu-arrow"><span class="text">MENU</span><span class="left"></span><span class="right"></span>
+            </div>
+            <nav class="primary-nav">
+              <a href="#Accueil">Accueil</a>
+              <a href="#Apropos">A propos</a>
+              <a href="#travail">Travail</a>
+              <a href="#Equipe">Notre Equipe</a>
+              <a href="FAQ.html">FAQ</a>
+              <a href="#contact">Contact</a>
+              <a href="#Partenariat">Partenariat</a>
+              <button class="flag-icon flag-icon-us" onclick="window.location.href='index.html'"></button>
+              <button class="flag-icon flag-icon-fr" onclick="window.location.href='fr-content.html'"></button>
+            </nav>
+          </div>
+        </header>
+
+        <article class="hero">
+          <h1 class="heading h-hero">Cellulam</h1>
+          <p class="copy c-hero c-01">Cellulam est un dispositif d’analyse sanguine disponible sous forme d’un boitier.
+            Il aide le professionnel de santé à effectuer un premier diagnostic différentiel avec les tests
+            préalablement choisis. Ses principaux avantages sont sa rapidité, sa fiabilité et sa réutilisabilité.
+            Similaire au glucomètre, il est aussi remboursable par la Sécurité Sociale.</p><br />
+          <a href="#contact" class="contact-trigger">Contacter nous aujourd'hui!</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- WHO ARE WE -->
+    <section class="about row" id="Apropos">
+      <div class="site-inner">
+        <header>
+          <h1 class="heading h-01">Qui sommes-nous?</h1>
+          <p class="copy c-01">Nous sommes un groupe d’étudiants d’EPITECH passionnés de santé et d’informatique. Notre
+            but est d’aider notre prochain et réduire les déserts médicaux.</p>
+          <hr class="br" />
+        </header>
+        <section class="half-col-container">
+          <aside class="half-col">
+            <figure class="aside-icon"><img src="images/icon_thumb.svg" class="inject-me" /></figure>
+            <h2 class="heading h-02">Tests disponible</h2>
+            <h4 class="heading h-04">Tests pertinents et fiabilité incontournable</h4>
+            <p class="copy c-03">Nous nous concentrons sur les tests les plus pertinents: par exemple TP/INR ou même CRP
+              et bien d'autres afin de vous accompagner au mieux dans votre exercice professionnel.</p>
+          </aside>
+
+          <aside class="half-col">
+            <figure class="aside-icon"><img src="images/icon_info.svg" class="inject-me" /></figure>
+            <h2 class="heading h-02">Deux modes disponibles</h2>
+            <h4 class="heading h-04">Changement de test simple pour une efficacité optimale</h4>
+            <p class="copy c-03">Deux modes disponibles afin de s'adapter au mieux à la situation qui vous attend. Un
+              simple changement de cassette de tests suffira pour une efficacité toujours optimale.</p>
+          </aside>
+        </section>
+      </div>
+    </section>
+
+    <!-- QUOTES -->
+    <section class="quotes row">
+      <div class="site-inner">
+        <header>
+          <h1 class="heading h-quote">Avec Cellulam, changeons le dispositif d’analyse sanguine</h1>
+          <p class="copy c-author">Cellulam</p>
+        </header>
+      </div>
+    </section>
+
+    <!-- OUR WORK -->
+    <section class="our-work row" id="travail">
+      <div class="site-inner">
+        <header>
+          <h1 class="heading h-01">Notre Travail</h1>
+          <p class="copy c-01">Nous travaillons en étroite collaboration avec divers professionnels de santé ainsi
+            qu'avec les organisations qui supervisent le système médical du pays. Le but est d'être plus attentif afin
+            de vous proposer un matériel à la hauteur de vos besoins.</p>
+          <hr class="br" />
+        </header>
+
+        <div id="worksFilters" class="button-group">
+          <span class="button-set">
+            <button class="button rounded normal is-checked" data-filter="*">Tous</button>
+            <button class="button rounded normal" data-filter=".web">Designe du Logiciel</button>
+          </span>
+          <span class="button-set">
+            <button class="button rounded normal" data-filter=".graphic">Designe du dispositif</button>
+            <button class="button rounded normal" data-filter=".branding">Marque</button>
+          </span>
+        </div>
+      </div>
+
+      <div id="worksContainer">
+        <div class="grid-sizer"></div>
+        <div class="item branding" data-url="http://1.com">
+          <figure><img src="images/Logo_Cellulam.png" /></figure>
+          <div class="info">
+            <div class="icon-eye"><img src="images/icon_eye.svg" class="inject-me" /></div>
+            <p class="copy c-02">Logo1</p>
+            <p class="copy c-01">Branding</p>
+          </div>
+        </div>
+        <div class="item graphic" data-url="http://2.com">
+          <figure><img src="images/proto1.jpg" /></figure>
+          <div class="info">
+            <div class="icon-eye"><img src="images/icon_eye.svg" class="inject-me" /></div>
+            <p class="copy c-02">Prototype1</p>
+            <p class="copy c-01">Graphic Design</p>
+          </div>
+        </div>
+        <div class="item graphic" data-url="http://3.com">
+          <figure><img src="images/proto2.jpg" /></figure>
+          <div class="info">
+            <div class="icon-eye"><img src="images/icon_eye.svg" class="inject-me" /></div>
+            <p class="copy c-02">Prototype2</p>
+            <p class="copy c-01">Graphic Design</p>
+          </div>
+        </div>
+        <div class="item graphic" data-url="http://5.com">
+          <figure><img src="images/proto3.jpg" /></figure>
+          <div class="info">
+            <div class="icon-eye"><img src="images/icon_eye.svg" class="inject-me" /></div>
+            <p class="copy c-02">Prototype3</p>
+            <p class="copy c-01">Graphic Design</p>
+          </div>
+        </div>
+        <div class="item graphic" data-url="http://6.com">
+          <figure><img src="images/proto4.jpg" /></figure>
+          <div class="info">
+            <div class="icon-eye"><img src="images/icon_eye.svg" class="inject-me" /></div>
+            <p class="copy c-02">Prototype4</p>
+            <p class="copy c-01">Graphic Design</p>
+          </div>
+        </div>
+        <div class="item web" data-url="http://7.com">
+          <figure><img src="images/front/PrototypeFront0.2.2.PNG" /></figure>
+          <div class="info">
+            <div class="icon-eye"><img src="images/icon_eye.svg" class="inject-me" /></div>
+            <p class="copy c-02">Front</p>
+            <p class="copy c-01">Software Design</p>
+          </div>
+        </div>
+        <div class="item web" data-url="http://8.com">
+          <figure><img src="images/front/PrototypeFront0.2.3.PNG" /></figure>
+          <div class="info">
+            <div class="icon-eye"><img src="images/icon_eye.svg" class="inject-me" /></div>
+            <p class="copy c-02">Front</p>
+            <p class="copy c-01">Software Design</p>
+          </div>
+        </div>
+        <div class="item web" data-url="http://9.com">
+          <figure><img src="images/front/PrototypeFront0.2.4.PNG" /></figure>
+          <div class="info">
+            <div class="icon-eye"><img src="images/icon_eye.svg" class="inject-me" /></div>
+            <p class="copy c-02">Front</p>
+            <p class="copy c-01">Software Design</p>
+          </div>
+        </div>
+        <div class="item web" data-url="http://10.com">
+          <figure><img src="images/front/PrototypeFront0.2.5.PNG" /></figure>
+          <div class="info">
+            <div class="icon-eye"><img src="images/icon_eye.svg" class="inject-me" /></div>
+            <p class="copy c-02">Front</p>
+            <p class="copy c-01">Software Design</p>
+          </div>
+        </div>
+        <div class="item web" data-url="http://11.com">
+          <figure><img src="images/front/PrototypeFront0.2.6.PNG" /></figure>
+          <div class="info">
+            <div class="icon-eye"><img src="images/icon_eye.svg" class="inject-me" /></div>
+            <p class="copy c-02">Front</p>
+            <p class="copy c-01">Software Design</p>
+          </div>
+        </div>
+        <div class="item web" data-url="http://12.com">
+          <figure><img src="images/front/PrototypeFront0.2.7.PNG" /></figure>
+          <div class="info">
+            <div class="icon-eye"><img src="images/icon_eye.svg" class="inject-me" /></div>
+            <p class="copy c-02">Front</p>
+            <p class="copy c-01">Software Design</p>
+          </div>
+        </div>
+        <div class="item web" data-url="http://13.com">
+          <figure><img src="images/front/Result.PNG" /></figure>
+          <div class="info">
+            <div class="icon-eye"><img src="images/icon_eye.svg" class="inject-me" /></div>
+            <p class="copy c-02">Front</p>
+            <p class="copy c-01">Software Design</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- THE Equipe -->
+    <section class="team row" id="Equipe">
+      <div class="site-inner">
+        <header>
+          <h1 class="heading h-01">Notre Equipe</h1>
+          <p class="copy c-01">Voici l’équipe travaillant sur ce projet.</p>
+          <hr class="br" />
+        </header>
+
+        <div id="teamContainer">
+          <div class="item">
+            <figure><img src="images/team/louis_pezet.jpg" /></figure>
+            <div class="info">
+              <h3 class="heading h-03">Louis</h3>
+              <h4 class="heading h-04">Orateur et Responsable des capteurs d'électrodes</h4>
+              <p class="copy c-01">louis.pezet@epitech.eu</p>
+            </div>
+          </div>
+          <div class="item">
+            <figure><img src="images/team/thomas.de-barros.jpg" /></figure>
+            <div class="info">
+              <h3 class="heading h-03">Thomas</h3>
+              <h4 class="heading h-04">Logiciel embarqué et Chef de Projet</h4>
+              <p class="copy c-01">thomas.de-barros@epitech.eu</p>
+            </div>
+          </div>
+          <div class="item">
+            <figure><img src="images/team/mondher.abounour.jpg" /></figure>
+            <div class="info">
+              <h3 class="heading h-03">Mondher</h3>
+              <h4 class="heading h-04">Colorimetric Sensor Analysis</h4>
+              <p class="copy c-01">mondher.abounour@epitech.eu</p>
+            </div>
+          </div>
+          <div class="item">
+            <figure><img src="images/team/loris.dugay.jpg" /></figure>
+            <div class="info">
+              <h3 class="heading h-03">Loris</h3>
+              <h4 class="heading h-04">Embedded Software</h4>
+              <p class="copy c-01">loris.dugay@epitech.eu</p>
+            </div>
+          </div>
+          <div class="item">
+            <figure><img src="images/team/sacha.joubert.jpg" /></figure>
+            <div class="info">
+              <h3 class="heading h-03">Sacha</h3>
+              <h4 class="heading h-04">Device Designer and Colorimetric Sensor Analysis</h4>
+              <p class="copy c-01">sacha.joubert@epitech.eu</p>
+            </div>
+          </div>
+          <div class="item">
+            <figure><img src="images/team/othmane.triki.jpg" /></figure>
+            <div class="info">
+              <h3 class="heading h-03">Othmane</h3>
+              <h4 class="heading h-04">Administrative Center</h4>
+              <p class="copy c-01">othmane.triki@epitech.eu</p>
+            </div>
+          </div>
+          <div class="item">
+            <figure><img src="images/team/nathan.camilleri.jpg" /></figure>
+            <div class="info">
+              <h3 class="heading h-03">Nathan</h3>
+              <h4 class="heading h-04">Administrative Center and Analysis electrodes sensor</h4>
+              <p class="copy c-01">nathan.camilleri@epitech.eu.</p>
+            </div>
+          </div>
+          <div class="item">
+            <figure><img src="images/team/julien.castillejos.jpg" /></figure>
+            <div class="info">
+              <h3 class="heading h-03">Julien</h3>
+              <h4 class="heading h-04">Administrative Center</h4>
+              <p class="copy c-01">julien.castillejos@epitech.eu</p>
+            </div>
+          </div>
+          <div class="item">
+            <figure><img src="images/team/bastien1.ladra.jpg" /></figure>
+            <div class="info">
+              <h3 class="heading h-03">Bastien</h3>
+              <h4 class="heading h-04">Webmaster and DevOps</h4>
+              <p class="copy c-01">bastien1.ladra@epitech.eu</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-video">
+      <video width="auto" height=100% autoplay loop muted playsinline>
+        <source src="./Movie/cellulam.mp4" type="video/mp4" />
+      </video>
+    </section>
+    <br><br>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials row">
+      <div class="site-inner">
+        <div class="swiper-container testimonials-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <figure data-name="Raphael Duquenoy" data-employer="Médecin Généraliste"><img
+                  src="images/Duquenoy1.jpg" /></figure>
+              <h4 class="heading h-04">Futur Dispositif pertinent et intéressant. J'attend avec impatience sa venue sur
+                le marché. Une persepective de gain de temps et une prise en charge de patient accrue. Enfin un
+                dispositif polyvalent conforme à nos besoins, rapide et précis</h4>
+            </div>
+            <div class="swiper-slide">
+              <figure data-name="Matthieu Pizon" data-employer="Médecin Biologiste"><img src="images/pizon.jpg" />
+              </figure>
+              <h4 class="heading h-04">Projet réalisable étant donné que les test se font sur les minutes suivant le
+                prèlevement. En attente de voir le projet fini afin de voir jusqu'ou il est capable d'aller. Très bien
+                pensé, surement très intéressant pour les ONG et pays dont le système de santé n'est pas assez développé
+              </h4>
+            </div>
+            <div class="swiper-slide">
+              <figure data-name="Claude Aubert" data-employer="Médecin Biologiste"><img
+                  src="images/claude-aubert.jpg" /></figure>
+              <h4 class="heading h-04">En attente d'une réponse. </h4>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials-pager"></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact row" id="contact">
+      <div class="site-inner">
+        <header>
+          <h1 class="heading h-01">Contactez-nous</h1>
+          <p class="copy c-01">Pour toute information, remarque ou question, n’hésitez pas à nous contacter via ce
+            formulaire. Notre équipe se chargera d’y répondre dans les plus brefs délais.</p>
+          <hr class="br" />
+        </header>
+
+        <section class="half-col-container">
+          <aside class="half-col">
+            <h2 class="heading h-02">Information Contact</h2>
+            <div class="item"><img src="images/icon_pin.svg" class="inject-me" />
+              <h2 class="heading h-02 h-address">85 Rue du Jardin Public, 33000 Bordeaux</h2>
+            </div>
+            <div class="item"><img src="images/icon_phone.svg" class="inject-me" />
+              <h2 class="heading h-02 h-phone">06.77.60.26.07</h2>
+            </div>
+            <div class="item"><img src="images/icon_mail.svg" class="inject-me" />
+              <h2 class="heading h-02 h-email">cellulam_2022@labeip.epitech.eu</h2>
+            </div>
+          </aside>
+
+          <aside class="half-col">
+            <h2 class="heading h-02">Contactez-nous</h2>
+            <div class="contact-form">
+              <form id="subscribe" action="js/process.php" method="POST">
+                <input type="text" name="info" class="info_field" placeholder="Objet" autocomplete="off">
+                <div class="input hide-me">
+                  <input type="text" name="name" id="name" placeholder="Name" autocomplete="off" />
+                </div>
+                <div class="input hide-me">
+                  <input type="email" name="email" id="email" placeholder="Email" autocomplete="off" />
+                </div>
+                <div class="input hide-me">
+                  <textarea name="message" id="message" placeholder="Votre Message"></textarea>
+                </div>
+                <div class="form-result"></div>
+                <button type="submit" id="reserve-btn" class="hide-me button normal rounded">Envoyer!</button>
+              </form>
+            </div>
+          </aside>
+        </section>
+      </div>
+    </section>
+    <section class="contact row" id="Partenariat">
+      <header>
+        <h1 class="heading h-01">Partenariat</h1>
+      </header>
+      <div class="in-line">
+        <img src="images/Partenership/Agence_Regionale_de_Sante.jpg" alt="ARS" style="width:10%">
+        <img src="images/Partenership/ansm.jpg" alt="ANSM" style="width:10%">
+        <img src="images/Partenership/has.jpg" alt="HAS" style="width:10%">
+        <img src="images/Partenership/ordre_infirmier.png" alt="ordre infirmier" style="width:10%">
+        <img src="images/Partenership/ordre_medecin.jpg" alt="ordre des médecins" style="width:10%">
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="footer row">
+      <div id="map"></div>
+
+      <div class="site-inner">
+        <p class="copy c-01 copyright">2022 Copyright. All Rights Reserved. Cellulam.com</p>
+      </div>
+    </section>
+
+    <div id="toTop"></div>
+
+    <button type="button" class="navTrigger"><span></span></button>
+    <nav class="footer-nav">
+      <a href="#Accueil">Accueil</a>
+      <a href="#Apropos">A propos</a>
+      <a href="#travail">Travail</a>
+      <a href="#Equipe">Notre Equipe</a>
+      <a href="#contact">Contact</a>
+      <a href="#Partenariat">Partenariat</a>
+    </nav>
+
+  </section>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.10.2.min.js"><\/script>');</script>
+  <script src="http://maps.google.com/maps/api/js?sensor=false&amp;libraries=geometry&amp;v=3.13"></script>
+
+  <script src="js/plugins.js"></script>
+  <script src="js/application.js"></script>
+
+  <script>
+    (function (b, o, i, l, e, r) {
+      b.GoogleAnalyticsObject = l; b[l] || (b[l] =
+        function () { (b[l].q = b[l].q || []).push(arguments) }); b[l].l = +new Date;
+      e = o.createElement(i); r = o.getElementsByTagName(i)[0];
+      e.src = '//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-53431423-3'); ga('send', 'pageview');
+  </script>
+
+</body>
+
+</html>
